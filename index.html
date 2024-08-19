@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F7F8; 
+}
+
+nav {
+    background-color: #45474B; 
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #F5F7F8; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #F4CE14; 
+    color: #45474B; 
+}
+
+header {
+    background-color: #379777;
+    color: #F5F7F8; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#skills {
+    background-color: #F9F9F9; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    border-bottom: 2px solid #F4CE14; 
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.skill-info h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.skill-info p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #379777; 
+    font-weight: bold;
+}
+
+footer {
+    background-color: #45474B; 
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    color: #F5F7F8;
+}
+
+    </style>
+</head>
+
+    <body>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    <header>
+        <div class="header-content">
+            <h1>Hi! I m Madhavi Somankop</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hello! I am Madhavi Somankopa, a passionate web developer with expertise in HTML, CSS, and JavaScript. I enjoy creating beautiful and functional websites.
+                An organized and motivated individual, eager to utilize time management and organizational skills across diverse
+settings. Seeking entry-level opportunities to enhance abilities while contributing to company growth.
+                
+            </p>
+        </div>
+        <img src="girl.jpg" alt="Your Name">
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-category">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+                <div class="skill-icon">🖥</div>
+                <div class="skill-info">
+                    <h4>Programming</h4>
+                    <p>Basics in C, Object-Oriented Programming with Java</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">📊</div>
+                <div class="skill-info">
+                    <h4>Database Management</h4>
+                    <p>Basics in DBMS</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">🌐</div>
+                <div class="skill-info">
+                    <h4>Web Development</h4>
+                    <p>HTML & CSS, JavaScript</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">🎨</div>
+                <div class="skill-info">
+                    <h4>Product Design</h4>
+                    <p>Figma, Rationale, UI Design, UX Design</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">🔧</div>
+                <div class="skill-info">
+                    <h4>Tools</h4>
+                    <p>Power BI</p>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <div class="skill">
+                <div class="skill-icon">🧠</div>
+                <div class="skill-info">
+                    <h4>Critical Thinking</h4>
+                    <p>Ability to analyze and solve problems effectively.</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">🛠</div>
+                <div class="skill-info">
+                    <h4>Problem-Solving</h4>
+                    <p>Creative solutions for complex issues.</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">🗣</div>
+                <div class="skill-info">
+                    <h4>Excellent Communication</h4>
+                    <p>Clear and effective communication skills.</p>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">🤝</div>
+                <div class="skill-info">
+                    <h4>Teamwork</h4>
+                    <p>Collaborative and cooperative in team settings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Plant Disease Detection App</h3>
+            <img src="plnt.jpg" alt="Project 1">
+            <p>  Developed a mobile app for plant disease diagnosis.Utilized image recognition and machine learning for accurate identification. Provided real-time disease information for optimized crop management.Developed a mobile app for diagnosing plant diseases using image recognition and machine learning, offering real-time
+                disease information to optimize crop management. The app has a 90% accuracy rate in disease identification and has
+                been downloaded by over 10,000 users, leading to a 20% increase in crop yields for users.</p>
+        </div>
+        <div class="project">
+            <h3>EduConnectHub Web Application</h3>
+            <img src="edu.jpg" alt="Project 2">
+            <p> Created web-based platform for educational institutions search and selection. Implemented comprehensive institution profiles and advanced search filters. Enhanced user experience through reviews and images. Developed a comprehensive web platform for finding and selecting educational institutions, featuring detailed profiles of
+                over 500 institutions, advanced search filters, and user reviews. Achieved a 30% increase in user engagement and a 20%
+                rise in institution enrollments within the first six months.</p>
+        </div>
+        <div class="project">
+            <h3>Hospital Management System Development</h3>
+            <img src="hosp.jpg" alt="Project 3">
+            <p> Created a DBMS-based hospital management system with functionalities for appointment scheduling, doctor availability,
+                and account management. Improved operational efficiency by 40%, reduced appointment scheduling time by 50%, and
+                increased patient satisfaction scores by 25%.
+                </p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2> 
+        <p>Email: madhavisomankop1@example.com</p>
+        <p>LinkedIn: Madhavi Somankop | LinkedIn </p>
+        <p>Phone: 9483347367</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Madhavi Somankop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
